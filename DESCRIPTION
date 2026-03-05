@@ -1,0 +1,15 @@
+Package: outrigger
+Type: Package
+Title: Outrigger regression
+Version: 0.1.0
+Author: Elliot Young
+Maintainer: Elliot Young <ey244@cam.ac.uk>
+Description: Performs (distributionally adaptive) outrigger local polynomial regression,estimating a conditional mean function, using a nonlinear, score-matching spline based estimator of the conditional score function.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp, np, mgcv, RColorBrewer
+LinkingTo:
+    Rcpp,
+    RcppArmadillo
+RoxygenNote: 7.2.3
